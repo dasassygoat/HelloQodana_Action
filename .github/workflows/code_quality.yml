@@ -28,7 +28,5 @@ jobs:
             pr-mode: false
             args: --apply-fixes
             push-fixes: pull-request
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
 
