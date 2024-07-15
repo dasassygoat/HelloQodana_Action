@@ -7,7 +7,5 @@ Console.WriteLine(testText);
 
 var teeHeeHee = "body count";
 
-if (teeHeeHee == "body count")
-{
-    Console.WriteLine("test instead");
-}
+string numb = "4";
+
