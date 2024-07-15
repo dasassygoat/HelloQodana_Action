@@ -24,4 +24,11 @@ jobs:
         env:
           upload-result: true
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }} # read the steps about it below
+          with:
+            pr-mode: false
+            args: --apply-fixes
+            push-fixes: pull-request
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
 
