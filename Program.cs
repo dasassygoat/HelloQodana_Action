@@ -6,3 +6,8 @@ string testText = "This is some new text";
 Console.WriteLine(testText);
 
 var teeHeeHee = "body count";
+
+if (teeHeeHee == "body count")
+{
+    Console.WriteLine("test instead");
+}
